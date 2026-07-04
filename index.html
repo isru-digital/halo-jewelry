@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>הילה HALO - טבעות אירוסין ונישואין בעבודת יד</title>
+  <meta name="description" content="הילה HALO - בית לתכשיטי יוקרה. טבעות אירוסין ונישואין בעיצוב אישי, יהלומים עם תעודת GIA ועבודת יד של שלושה דורות." />
+
+  <meta property="og:title" content="הילה HALO - טבעות אירוסין ונישואין" />
+  <meta property="og:description" content="לכתוב את הסיפור שלכם בזהב וביהלומים. עיצוב אישי, עבודת יד, יהלומים עם תעודה." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="media/poster.jpg" />
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='18' r='9' fill='none' stroke='%23d8b25c' stroke-width='2.4'/%3E%3Cpath d='M16 3 L20 9 L12 9 Z' fill='%23f0d48a'/%3E%3C/svg%3E" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400;500;700&family=Assistant:wght@300;400;500;600;700&family=Cormorant+Garamond:ital,wght@1,500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body id="top">
+
+  <div class="progress" id="progress" aria-hidden="true"></div>
+
+  <!-- ניווט -->
+  <header class="nav" id="nav">
+    <a class="nav__brand" href="#top">
+      <span class="nav__brand-main">הילה</span>
+      <span class="nav__brand-sub">HALO · FINE JEWELRY</span>
+    </a>
+    <nav class="nav__links" id="navLinks" aria-label="ניווט ראשי">
+      <a href="#film" data-link>הסיפור</a>
+      <a href="#collection" data-link>הקולקציה</a>
+      <a href="#visit" data-link>הסטודיו</a>
+      <a href="#visit" class="btn btn--gold" data-link>לתיאום פגישה</a>
+    </nav>
+    <button class="nav__toggle" id="navToggle" aria-label="פתיחת תפריט" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <!-- נקודות סצנה -->
+  <nav class="dots" id="dots" aria-label="ניווט בין סצנות">
+    <a href="#film" data-scene="0" aria-label="סצנה 1 - פתיחה"></a>
+    <a href="#film" data-scene="1" aria-label="סצנה 2 - היהלום"></a>
+    <a href="#film" data-scene="2" aria-label="סצנה 3 - המלאכה"></a>
+    <a href="#film" data-scene="3" aria-label="סצנה 4 - הרגע"></a>
+    <a href="#film" data-scene="4" aria-label="סצנה 5 - הקולקציה"></a>
+  </nav>
+
+  <main>
+
+    <!-- הסרט - קליפ רציף אחד שנגלל עם הסקרול -->
+    <section class="film" id="film" aria-label="הסיפור של הילה">
+      <div class="film__stage">
+        <video class="film__video" id="filmVideo" muted playsinline preload="auto"
+               data-src="media/film.mp4" data-src-m="media/film_m.mp4"
+               poster="media/poster.jpg"></video>
+        <div class="film__scrim"></div>
+
+        <div class="caps">
+          <!-- 1 - פתיחה -->
+          <div class="cap cap--center is-active" data-scene="0">
+            <div class="cap__inner"><div class="cap__text">
+              <p class="eyebrow">בית לתכשיטי יוקרה · מגדל היהלומים, רמת גן</p>
+              <h1 class="hero__title">לכתוב את הסיפור שלכם<br />בזהב וביהלומים</h1>
+              <p class="hero__script">HALO</p>
+              <p class="hero__tagline">קולקציית טבעות אירוסין ונישואין בעיצוב אישי, ברמת גימור שאין שנייה לה. רגעים של פעם בחיים מתחילים כאן.</p>
+              <a class="btn btn--gold" href="#collection" data-link>לצפייה בקולקציה</a>
+            </div></div>
+          </div>
+          <!-- 2 - היהלום -->
+          <div class="cap cap--start" data-scene="1">
+            <div class="cap__inner"><div class="cap__text">
+              <p class="eyebrow">היהלום</p>
+              <h2 class="scene__title">קרוב. עוד יותר קרוב.</h2>
+              <p class="scene__body">כל יהלום בקולקציה נבחר ביד ומלווה בתעודת GIA. ניקיון, ליטוש, ניצוץ - על אף אחד מהם אנחנו לא מתפשרים, כי מקרוב רואים הכול.</p>
+            </div></div>
+          </div>
+          <!-- 3 - המלאכה -->
+          <div class="cap cap--end" data-scene="2">
+            <div class="cap__inner"><div class="cap__text">
+              <p class="eyebrow">המלאכה</p>
+              <h2 class="scene__title">עבודת יד.<br />דור אחרי דור.</h2>
+              <p class="scene__body">בסדנה שלנו כל טבעת נולדת לאט: שיבוץ ידני, ליטוש עדין וגימור שנבדק שוב ושוב עד שהוא מושלם. כך נראית אומנות שעוברת במשפחה כבר שלושה דורות.</p>
+            </div></div>
+          </div>
+          <!-- 4 - הרגע -->
+          <div class="cap cap--start" data-scene="3">
+            <div class="cap__inner"><div class="cap__text">
+              <p class="eyebrow">הרגע</p>
+              <h2 class="scene__title">רגע אחד.<br />פעם אחת בחיים.</h2>
+              <p class="scene__body">ביום שבו תרכינו ברך, הטבעת כבר תדע את תפקידה. נעצב אותה יחד אתכם, כדי שהרגע הזה ייראה בדיוק כמו שדמיינתם אותו.</p>
+            </div></div>
+          </div>
+          <!-- 5 - CTA -->
+          <div class="cap cap--center cap--cta" data-scene="4">
+            <div class="cap__inner"><div class="cap__text">
+              <p class="eyebrow">הקולקציה מחכה לכם</p>
+              <h2 class="scene__title scene__title--xl">הסיפור שלכם מתחיל כאן</h2>
+              <div class="cta__actions">
+                <a class="btn btn--gold btn--lg" href="#visit" data-link>לתיאום פגישת עיצוב אישית</a>
+                <a class="btn btn--ghost btn--lg" href="#collection" data-link>לצפייה בקולקציה</a>
+              </div>
+            </div></div>
+          </div>
+        </div>
+
+        <a class="scroll-cue" id="scrollCue" href="#film" aria-label="גללו להמשך">
+          <span class="scroll-cue__label">גללו</span>
+          <span class="scroll-cue__line"></span>
+        </a>
+      </div>
+    </section>
+
+    <!-- הקולקציה - תצוגה אינטראקטיבית -->
+    <section class="showcase" id="collection">
+      <div class="section-head">
+        <p class="eyebrow">הקולקציה</p>
+        <h2 class="section-title">שלוש טבעות. סיפור אחד שלכם.</h2>
+        <p class="section-sub">בחרו טבעת, החליפו בין סוגי הזהב, ומצאו את השילוב שמרגיש בדיוק שלכם.</p>
+      </div>
+
+      <div class="showcase__grid">
+        <div class="viewer" aria-live="polite">
+          <div class="viewer__frame">
+            <img data-key="ring1_yellow" class="is-active" src="img/ring1_yellow.webp" alt="טבעת סוליטר קלאסית בזהב צהוב על קטיפה שחורה" width="800" height="800" />
+            <img data-key="ring1_white"  src="img/ring1_white.webp"  alt="טבעת סוליטר קלאסית בזהב לבן על קטיפה שחורה" width="800" height="800" loading="lazy" />
+            <img data-key="ring1_rose"   src="img/ring1_rose.webp"   alt="טבעת סוליטר קלאסית ברוז גולד על קטיפה שחורה" width="800" height="800" loading="lazy" />
+            <img data-key="ring2_yellow" src="img/ring2_yellow.webp" alt="טבעת הילה מלכותית בזהב צהוב על קטיפה שחורה" width="800" height="800" loading="lazy" />
+            <img data-key="ring2_white"  src="img/ring2_white.webp"  alt="טבעת הילה מלכותית בזהב לבן על קטיפה שחורה" width="800" height="800" loading="lazy" />
+            <img data-key="ring2_rose"   src="img/ring2_rose.webp"   alt="טבעת הילה מלכותית ברוז גולד על קטיפה שחורה" width="800" height="800" loading="lazy" />
+            <img data-key="ring3_yellow" src="img/ring3_yellow.webp" alt="טבעת פרינסס מודרנית בזהב צהוב על קטיפה שחורה" width="800" height="800" loading="lazy" />
+            <img data-key="ring3_white"  src="img/ring3_white.webp"  alt="טבעת פרינסס מודרנית בזהב לבן על קטיפה שחורה" width="800" height="800" loading="lazy" />
+            <img data-key="ring3_rose"   src="img/ring3_rose.webp"   alt="טבעת פרינסס מודרנית ברוז גולד על קטיפה שחורה" width="800" height="800" loading="lazy" />
+          </div>
+        </div>
+
+        <div class="panel">
+          <div class="ring-tabs" role="tablist" aria-label="בחירת טבעת">
+            <button class="ring-tab is-active" role="tab" aria-selected="true" data-ring="ring1">סוליטר קלאסית</button>
+            <button class="ring-tab" role="tab" aria-selected="false" data-ring="ring2">הילה מלכותית</button>
+            <button class="ring-tab" role="tab" aria-selected="false" data-ring="ring3">פרינסס מודרנית</button>
+          </div>
+
+          <h3 class="panel__title" id="ringTitle">סוליטר קלאסית</h3>
+          <p class="panel__desc" id="ringDesc">יהלום עגול בליטוש Round Brilliant על רצועה מעוגלת ונקייה. הקלאסיקה שלעולם אינה מתיישנת.</p>
+
+          <div class="gold-switch" role="group" aria-label="בחירת סוג זהב">
+            <span class="gold-switch__label">סוג הזהב</span>
+            <div class="gold-switch__options">
+              <button class="gold-btn is-active" data-gold="yellow" aria-pressed="true">
+                <span class="gold-dot gold-dot--yellow" aria-hidden="true"></span>זהב צהוב
+              </button>
+              <button class="gold-btn" data-gold="white" aria-pressed="false">
+                <span class="gold-dot gold-dot--white" aria-hidden="true"></span>זהב לבן
+              </button>
+              <button class="gold-btn" data-gold="rose" aria-pressed="false">
+                <span class="gold-dot gold-dot--rose" aria-hidden="true"></span>רוז גולד
+              </button>
+            </div>
+          </div>
+
+          <div class="panel__meta">
+            <div class="panel__price"><span id="ringPrice">8,900 ₪</span><span class="panel__price-note">מחיר פתיחה, כולל יהלום עם תעודה</span></div>
+          </div>
+
+          <div class="panel__actions">
+            <a class="btn btn--gold btn--lg" href="#visit" data-link>לרכישה מאובטחת</a>
+            <a class="btn btn--ghost btn--lg" href="#visit" data-link>לתיאום פגישת עיצוב</a>
+          </div>
+
+          <ul class="panel__perks">
+            <li>יהלום מרכזי עם תעודת GIA</li>
+            <li>התאמה אישית של מידה, זהב ושיבוץ</li>
+            <li>אחריות לכל החיים על העבודה</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- פגישה אישית -->
+    <section class="visit" id="visit">
+      <div class="visit__inner">
+        <div class="visit__info">
+          <p class="eyebrow">פגישת עיצוב אישית</p>
+          <h2 class="section-title">בואו נעצב אותה יחד</h2>
+          <p class="visit__lead">שעה אחת בסטודיו, כוס קפה טובה, וכל היהלומים על השולחן. יוצאים עם עיצוב מדויק והצעת מחיר שקופה, בלי שום התחייבות.</p>
+
+          <div class="visit__block">
+            <h3>הסטודיו</h3>
+            <p>מגדל היהלומים, קומה 12<br />רחוב ז'בוטינסקי 1, רמת גן</p>
+          </div>
+
+          <div class="visit__block">
+            <h3>שעות פעילות</h3>
+            <ul class="hours">
+              <li><span>ראשון - חמישי</span><span>10:00 - 19:00</span></li>
+              <li><span>שישי</span><span>09:00 - 13:00</span></li>
+              <li><span>שבת</span><span>סגור</span></li>
+            </ul>
+          </div>
+
+          <div class="visit__block">
+            <h3>יצירת קשר</h3>
+            <p><a href="tel:+97235550148">03-555-0148</a><br />
+               <a href="mailto:studio@halo-jewelry.co.il">studio@halo-jewelry.co.il</a></p>
+          </div>
+        </div>
+
+        <div class="visit__form-wrap">
+          <form class="lead-form" id="leadForm" novalidate>
+            <h3 class="lead-form__title">לתיאום פגישה</h3>
+            <p class="lead-form__sub">השאירו פרטים ונחזור אליכם עוד היום</p>
+
+            <div class="field">
+              <label for="fldName">שם מלא <span class="req" aria-hidden="true">*</span></label>
+              <input id="fldName" name="name" type="text" autocomplete="name" required />
+              <p class="field__error" id="errName" role="alert" hidden>נשמח לדעת איך קוראים לכם</p>
+            </div>
+
+            <div class="field">
+              <label for="fldPhone">טלפון <span class="req" aria-hidden="true">*</span></label>
+              <input id="fldPhone" name="phone" type="tel" inputmode="tel" autocomplete="tel" dir="ltr" required />
+              <p class="field__error" id="errPhone" role="alert" hidden>מספר טלפון תקין יעזור לנו לחזור אליכם</p>
+            </div>
+
+            <div class="field">
+              <label for="fldTopic">מה מחפשים?</label>
+              <select id="fldTopic" name="topic">
+                <option value="engagement" selected>טבעת אירוסין</option>
+                <option value="wedding">טבעות נישואין</option>
+                <option value="custom">עיצוב אישי אחר</option>
+              </select>
+            </div>
+
+            <button class="btn btn--gold btn--lg lead-form__submit" type="submit">לתיאום פגישת עיצוב אישית</button>
+            <p class="lead-form__note">בלי ספאם ובלי לחץ. רק שיחה אחת טובה.</p>
+            <p class="lead-form__success" id="formSuccess" role="status" hidden>תודה! קיבלנו את הפרטים ונחזור אליכם עוד היום.</p>
+          </form>
+
+          <ul class="trust">
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 3l7 3v5c0 5-3.2 8.4-7 10-3.8-1.6-7-5-7-10V6l7-3z"/><path d="M9 12l2 2 4-4"/></svg>
+              <span>אחריות לכל החיים</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M6 3h12l3 6-9 12L3 9l3-6z"/><path d="M3 9h18M9 3l3 6 3-6M12 21L9 9M12 21l3-12"/></svg>
+              <span>יהלומים עם תעודת GIA</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 10h18M7 15h4"/></svg>
+              <span>תשלום מאובטח ומפוצל</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__brand">
+        <span class="footer__main">הילה</span>
+        <span class="footer__sub">HALO · FINE JEWELRY</span>
+      </div>
+      <nav class="footer__links" aria-label="ניווט תחתון">
+        <a href="#top" data-link>למעלה</a>
+        <a href="#collection" data-link>הקולקציה</a>
+        <a href="#visit" data-link>הסטודיו</a>
+        <a href="https://instagram.com" target="_blank" rel="noopener">אינסטגרם</a>
+      </nav>
+      <p class="footer__legal">© 2026 הילה HALO. אתר תדמית לדוגמה. כל הזכויות שמורות.</p>
+    </footer>
+
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
