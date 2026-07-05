@@ -702,6 +702,7 @@ button { font-family: inherit; color: inherit; }
 }
 .footer__links a:hover { color: var(--ink); }
 .footer__legal { font-size: 0.84rem; color: var(--ink-faint); }
+.footer__credit { font-size: 0.78rem; color: var(--gold); margin-top: -10px; }
 
 /* ---------- חשיפות בגלילה ---------- */
 .reveal-on .trust li,
